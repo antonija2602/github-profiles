@@ -1,0 +1,77 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Muli", sans-serif;
+    box-sizing: border-box;
+    border: 1px red solid;
+    min-height: 100vh;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #2e2a68 74%);
+    /* background-color: #242e4c; */
+}
+/*=============== HEADER & SEARCH ===============*/
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 4rem;
+}
+.search {
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: solid 2px #7f5a83;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.9;
+}
+.search::placeholder {
+    color: #737592;
+}
+.search:focus {
+    outline: none;
+}
+
+/*=============== MAIN & CARD ===============*/
+
+.main {
+    display: grid;
+    justify-content: center;
+    /* align-content: center; */
+    padding: 5rem;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    max-width: 34rem;
+
+    padding: 1rem 2rem;
+    border-radius: 20px;
+
+    box-shadow: 0 0 50px rgba(255, 252, 252, 0.2);
+
+    background-color: #310e68;
+    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+}
+
+.img {
+    width: 130px;
+    border-radius: 50%;
+    border: 10px solid #242e4c;
+}
+.info {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
