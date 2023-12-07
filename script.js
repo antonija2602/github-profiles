@@ -60,7 +60,7 @@ async function getUser(username) {
 ${respData.public_repos}<strong>Repos</strong></li>
         </ul>
 
-        <h4>Repos:</h4>
+        
             <div class="repos" id="repos"></div>
             </div>
 

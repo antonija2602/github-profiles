@@ -39,14 +39,11 @@ header {
 .main {
     display: grid;
     justify-content: center;
-    /* align-content: center; */
     padding: 5rem;
 }
 .card {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
-    /* gap: 2rem; */
     width: 600px;
     padding: 3rem;
     border-radius: 20px;
@@ -65,41 +62,29 @@ header {
 .info {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* height: 150px; */
+    gap: 1.5rem;
     color: #fff;
     opacity: 0.9;
-    /* border: red 1px solid; */
     margin-left: 2rem;
-    /* line-height: 1.2; */
-    /* text-wrap: balance; */
-    /* padding: 0; */
 }
 .info h2 {
-    /* border: red 1px solid; */
-    margin-top: 0;
+    margin: 0 0 0.5rem 0;
 }
-/* .info p {
-    border: red 1px solid;
-} */
+.info p {
+    margin: 0;
+}
 .info ul {
-    /* border: red 1px solid; */
+    margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     list-style-type: none;
+    gap: 2rem;
     padding: 0;
-    width: 320px;
-    /* height: 50px; */
-    margin-bottom: 0;
+    font-size: 0.9rem;
 }
-/* .info ul li {
-    display: flex;
-    align-items: center;
-} */
 
 .info ul li strong {
     font-size: 0.8rem;
-    margin-left: 0.5rem;
 }
 
 .repo {
@@ -109,9 +94,5 @@ header {
     padding: 0.25rem 0.5rem;
     margin: 0 0.5rem 0.5rem 0;
     text-decoration: none;
-    font-size: 0.7rem;
-}
-.repos {
-    padding: 0;
-    border: 1px red solid;
+    font-size: 0.8rem;
 }
