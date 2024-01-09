@@ -4,7 +4,7 @@ const main = document.getElementById("main")
 const form = document.getElementById("form")
 const search = document.getElementById("search")
 
-getUser("florinpop17")
+getUser()
 
 // Load user after url and username
 async function getUser(username) {
@@ -91,10 +91,10 @@ ${respData.public_repos}<strong>Repos</strong></li>
 
     //             <p>${respData.bio}</p>
     //             <ul>
-    //         <li>${respData.followers}</li>
-    //         <li>${respData.following}</li>
-    //         <li>${respData.public_repos}</li>
-    //     </ul>
+    //                  <li>${respData.followers}</li>
+    //                  <li>${respData.following}</li>
+    //                  <li>${respData.public_repos}</li>
+    //             </ul>
     //         </div></div>
     //     `
 
